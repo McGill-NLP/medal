@@ -10,6 +10,8 @@ Repository for **Me**dical **D**ataset for **A**bbreviation Disambiguation for N
 
 💾 [Dataset (Kaggle)](https://www.kaggle.com/xhlulu/medal-emnlp)
 
+💽 [Dataset (Zenodo)](https://zenodo.org/record/4265633)
+
 <!-- 🤗 [Pre-trained ELECTRA Small (Hugging Face)]()
 
 🔥 [Pre-trained LSTM (Torch Hub)]() -->
