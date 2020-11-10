@@ -1,8 +1,8 @@
 # MeDAL dataset
 
-Repository for **Me**dical **D**ataset for **A**bbreviation Disambiguation for Natural **L**anguage Understanding (MeDAL), a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain. It was published at the ClinicalNLP workshop at EMNLP.
-
 ![](./figures/rs_illustration.svg)
+
+Repository for **Me**dical **D**ataset for **A**bbreviation Disambiguation for Natural **L**anguage Understanding (MeDAL), a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain. It was published at the ClinicalNLP workshop at EMNLP.
 
 📜 [Paper](https://www.aclweb.org/anthology/2020.clinicalnlp-1.15/)
 
