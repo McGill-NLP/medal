@@ -4,12 +4,9 @@
 
 Repository for **Me**dical **D**ataset for **A**bbreviation Disambiguation for Natural **L**anguage Understanding (MeDAL), a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain. It was published at the ClinicalNLP workshop at EMNLP.
 
-📜 [Paper](https://www.aclweb.org/anthology/2020.clinicalnlp-1.15/)
-
-💻 [Code](https://github.com/BruceWen120/medal)
-
-💾 [Dataset (Kaggle)](https://www.kaggle.com/xhlulu/medal-emnlp)
-
+📜 [Paper](https://www.aclweb.org/anthology/2020.clinicalnlp-1.15/)\
+💻 [Code](https://github.com/BruceWen120/medal)\
+💾 [Dataset (Kaggle)](https://www.kaggle.com/xhlulu/medal-emnlp)\
 💽 [Dataset (Zenodo)](https://zenodo.org/record/4265633)
 
 <!-- 🤗 [Pre-trained ELECTRA Small (Hugging Face)]()
