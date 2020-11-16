@@ -13,6 +13,43 @@ Repository for **Me**dical **D**ataset for **A**bbreviation Disambiguation for N
 
 🔥 [Pre-trained LSTM (Torch Hub)]() -->
 
+## Quickstart
+
+<!-- COMING SOON
+### Using Torch Hub
+
+You can directly load LSTM and LSTM-SA with `torch.hub`:
+```python
+import torch
+
+lstm = torch.hub.load("BruceWen120/medal, "lstm")
+lstm_sa = torch.hub.load("BruceWen120/medal, "lstm_sa")
+```
+
+If you want to use the Electra model, you need to first install transformers:
+```
+pip install transformers
+```
+Then, you can load it with `torch.hub`:
+```python
+import torch
+electra = torch.hub.load("BruceWen120/medal, "electra")
+```
+
+-->
+
+### Using Huggingface `transformers`
+
+If you are only interested in the pre-trained ELECTRA weights (without the disambiguation head), you can load it directly from the Hugging Face Repository:
+
+```python
+from transformers import AutoModel, AutoTokenizer
+
+model = AutoModel.from_pretrained("xhlulu/electra-medal")
+tokenizer = AutoTokenizer.from_pretrained("xhlulu/electra-medal")
+```
+
+
 ## Running the code
 
 Coming soon!
