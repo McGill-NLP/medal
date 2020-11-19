@@ -21,8 +21,8 @@ You can directly load LSTM and LSTM-SA with `torch.hub`:
 ```python
 import torch
 
-lstm = torch.hub.load("BruceWen120/medal, "lstm")
-lstm_sa = torch.hub.load("BruceWen120/medal, "lstm_sa")
+lstm = torch.hub.load("BruceWen120/medal", "lstm")
+lstm_sa = torch.hub.load("BruceWen120/medal", "lstm_sa")
 ```
 
 If you want to use the Electra model, you need to first install transformers:
