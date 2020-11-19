@@ -13,9 +13,8 @@ Repository for **Me**dical **D**ataset for **A**bbreviation Disambiguation for N
 <!-- 
 🔥 [Pre-trained LSTM (Torch Hub)]() -->
 
-## Quickstart
+## Model Quickstart
 
-<!-- COMING SOON
 ### Using Torch Hub
 
 You can directly load LSTM and LSTM-SA with `torch.hub`:
@@ -35,8 +34,6 @@ Then, you can load it with `torch.hub`:
 import torch
 electra = torch.hub.load("BruceWen120/medal, "electra")
 ```
-
--->
 
 ### Using Huggingface `transformers`
 
