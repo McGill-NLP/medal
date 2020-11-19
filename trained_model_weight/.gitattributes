@@ -1,4 +1,0 @@
-*.pt filter=lfs diff=lfs merge=lfs -text
-electra.pt filter=lfs diff=lfs merge=lfs -text
-lstm.pt filter=lfs diff=lfs merge=lfs -text
-lstm_sa.pt filter=lfs diff=lfs merge=lfs -text
