@@ -32,7 +32,7 @@ pip install transformers
 Then, you can load it with `torch.hub`:
 ```python
 import torch
-electra = torch.hub.load("BruceWen120/medal, "electra")
+electra = torch.hub.load("BruceWen120/medal", "electra")
 ```
 
 ### Using Huggingface `transformers`
