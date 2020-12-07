@@ -46,6 +46,23 @@ model = AutoModel.from_pretrained("xhlu/electra-medal")
 tokenizer = AutoTokenizer.from_pretrained("xhlu/electra-medal")
 ```
 
+## Citation
+
+To cite this project, download the `bibtex` [here](https://www.aclweb.org/anthology/2020.clinicalnlp-1.15.bib), or copy the text below:
+```
+@inproceedings{wen-etal-2020-medal,
+    title = "{M}e{DAL}: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining",
+    author = "Wen, Zhi and Lu, Xing Han and Reddy, Siva",
+    booktitle = "Proceedings of the 3rd Clinical Natural Language Processing Workshop",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.clinicalnlp-1.15",
+    pages = "130--135",
+}
+```
+
 ## Downloading the data
 
 ### Using Zenodo
@@ -225,25 +242,6 @@ The rest are optional parameters. Run command `python run_downstream.py --help` 
 The intermediate and final results will be saved to `savedir/{timestamp}`, where the timestamp records the time this script starts to run, and is in the format of `{month}-{day}-{hour}-{minute}`.
 
 The training process can also be monitored with Tensorboard, whose logs are saved to the `runs/{task}/{model type}-{timestamp}` directory under current directory. Launch tensorboard with `tensorboard --logdir=runs --port {some port}`, and it can be accessed through SSH on your local machine.
-
-## Citation
-
-Download the `bibtex` [here](https://www.aclweb.org/anthology/2020.clinicalnlp-1.15.bib), or copy the text below:
-```
-@inproceedings{wen-etal-2020-medal,
-    title = "{M}e{DAL}: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining",
-    author = "Wen, Zhi and Lu, Xing Han and Reddy, Siva",
-    booktitle = "Proceedings of the 3rd Clinical Natural Language Processing Workshop",
-    month = nov,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.clinicalnlp-1.15",
-    pages = "130--135",
-}
-```
-
-
 
 ## License, Terms and Conditions
 
