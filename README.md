@@ -4,11 +4,13 @@
 
 Repository for **Me**dical **D**ataset for **A**bbreviation Disambiguation for Natural **L**anguage Understanding (MeDAL), a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain. It was published at the ClinicalNLP workshop at EMNLP.
 
-📜 [Paper](https://www.aclweb.org/anthology/2020.clinicalnlp-1.15/)\
 💻 [Code](https://github.com/BruceWen120/medal)\
+🤗 [Dataset (Hugging Face)](https://huggingface.co/datasets/medal)\
 💾 [Dataset (Kaggle)](https://www.kaggle.com/xhlulu/medal-emnlp)\
 💽 [Dataset (Zenodo)](https://zenodo.org/record/4265632)\
-🤗 [Pre-trained ELECTRA (Hugging Face)](https://huggingface.co/xhlu/electra-medal)
+📜 [Paper (ACL)](https://www.aclweb.org/anthology/2020.clinicalnlp-1.15/)\
+📝 [Paper (Arxiv)](https://arxiv.org/abs/2012.13978)\
+⚡ [Pre-trained ELECTRA (Hugging Face)](https://huggingface.co/xhlu/electra-medal)
 
 <!-- 
 🔥 [Pre-trained LSTM (Torch Hub)]() -->
@@ -97,6 +99,14 @@ Now, unzip everything and place them inside the `data` directory:
 ```
 unzip -nq crawl-300d-2M-subword.zip -d data
 mv data/pretrain_sample/* data/
+```
+
+### Using Hugging Face `datasets`
+
+You can now use download the dataset through Hugging Face's `datasets` library (which can be installed using `pip install datasets`):
+```python
+from datasets import load_dataset
+dataset = load_dataset("medal")
 ```
 
 ### Loading FastText Embeddings
