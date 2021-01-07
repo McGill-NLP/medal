@@ -8,7 +8,7 @@ future==0.18.2
 gensim==3.8.3
 idna==2.10
 joblib==0.17.0
-lxml==4.6.1
+lxml==4.6.2
 numpy==1.19.4
 packaging==20.4
 pandas==1.1.4
