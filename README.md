@@ -71,14 +71,24 @@ To cite this project, download the `bibtex` [here](https://www.aclweb.org/anthol
 
 We recommend downloading from Zenodo if you do not want to authenticate through Kaggle. The downside to Zenodo is that the data is uncompressed, so it will take more time to download. Links to the data can be found at the top of the readme. To download from Zenodo, simply do:
 ```
-wget -nc -P data/ https://zenodo.org/record/4276178/files/full_data.csv
+wget -nc -P data/ https://zenodo.org/record/4265632/files/full_data.csv.zip
+```
+
+If you can't use `unzip`, you can also download the original csv file (which is 3x larger):
+```
+wget -nc -P data/ https://zenodo.org/record/4265632/files/full_data.csv
 ```
 
 If you want to reproduce our pre-training results, you can download only the pre-training data below:
 ```
-wget -nc -P data/ https://zenodo.org/record/4276178/files/train.csv
-wget -nc -P data/ https://zenodo.org/record/4276178/files/valid.csv
-wget -nc -P data/ https://zenodo.org/record/4276178/files/test.csv
+wget -nc -P data/ https://zenodo.org/record/4265632/files/train.csv
+wget -nc -P data/ https://zenodo.org/record/4265632/files/valid.csv
+wget -nc -P data/ https://zenodo.org/record/4265632/files/test.csv
+```
+
+Or download the compress `zip` file containing all three files:
+```
+wget -nc -P data/ https://zenodo.org/record/4265632/files/pretrain_subset.zip
 ```
 
 ### Using Kaggle (authentication required)
