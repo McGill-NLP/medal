@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this paper."
+authors:
+- family-names: "Zhi"
+  given-names: "Wen"
+- family-names: "Xing Han"
+  given-names: "Lu"
+- family-names: "Siva"
+  given-names: "Reddy"
+title: "MeDAL"
+date-released: 2020-11-19
+url: "https://github.com/BruceWen120/medal"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Zhi"
+    given-names: "Wen"
+  - family-names: "Xing Han"
+    given-names: "Lu"
+  - family-names: "Siva"
+    given-names: "Reddy"
+  doi: "10.18653/v1/2020.clinicalnlp-1.15"
+  journal: "Proceedings of the 3rd Clinical Natural Language Processing Workshop"
+  month: 11
+  start: 130 # First page number
+  end: 135 # Last page number
+  title: "MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining"
+  year: 2021
