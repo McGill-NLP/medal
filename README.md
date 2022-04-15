@@ -69,7 +69,7 @@ To cite this project, download the `bibtex` [here](https://www.aclweb.org/anthol
 
 ### Using Zenodo
 
-We recommend downloading from Zenodo if you do not want to authenticate through Kaggle. The downside to Zenodo is that the data is uncompressed, so it will take more time to download. Links to the data can be found at the top of the readme. To download from Zenodo, simply do:
+We recommend downloading from Zenodo if you do not want to authenticate through Kaggle. Links to the data can be found at the top of the readme. To download from Zenodo, simply do:
 ```
 wget -nc -P data/ https://zenodo.org/record/4482922/files/full_data.csv.zip
 ```
