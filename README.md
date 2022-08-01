@@ -1,54 +1,23 @@
 # MeDAL dataset
 
-![](./figures/rs_illustration.svg)
+> **[MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining](https://arxiv.org/abs/2012.13978)**
+> 
+> *Zhi Wen, Xing Han Lu, Siva Reddy*
+
+![An example from the MeDAL dataset, showing the abbreviation "DHF" being expanded to "dihydrofolate".](./figures/rs_illustration.svg)
 
 Repository for **Me**dical **D**ataset for **A**bbreviation Disambiguation for Natural **L**anguage Understanding (MeDAL), a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain. It was published at the ClinicalNLP workshop at EMNLP.
 
-💻 [Code](https://github.com/BruceWen120/medal)\
+💻 [Code](https://github.com/McGill-NLP/medal)\
 🤗 [Dataset (Hugging Face)](https://huggingface.co/datasets/medal)\
 💾 [Dataset (Kaggle)](https://www.kaggle.com/xhlulu/medal-emnlp)\
 💽 [Dataset (Zenodo)](https://zenodo.org/record/4265632)\
 📜 [Paper (ACL)](https://www.aclweb.org/anthology/2020.clinicalnlp-1.15/)\
 📝 [Paper (Arxiv)](https://arxiv.org/abs/2012.13978)\
-⚡ [Pre-trained ELECTRA (Hugging Face)](https://huggingface.co/xhlu/electra-medal)
+⚡ [Pre-trained ELECTRA (Hugging Face)](https://huggingface.co/McGill-NLP/electra-medal)
 
 <!-- 
 🔥 [Pre-trained LSTM (Torch Hub)]() -->
-
-## Model Quickstart
-
-### Using Torch Hub
-
-You can directly load LSTM and LSTM-SA with `torch.hub`:
-```python
-import torch
-
-lstm = torch.hub.load("BruceWen120/medal", "lstm")
-lstm_sa = torch.hub.load("BruceWen120/medal", "lstm_sa")
-```
-
-If you want to use the Electra model, you need to first install transformers:
-```
-pip install transformers
-```
-Then, you can load it with `torch.hub`:
-```python
-import torch
-electra = torch.hub.load("BruceWen120/medal", "electra")
-```
-
-### Using Huggingface `transformers`
-
-If you are only interested in the pre-trained ELECTRA weights (without the disambiguation head), you can load it directly from the Hugging Face Repository:
-
-```python
-from transformers import AutoModel, AutoTokenizer
-
-model = AutoModel.from_pretrained("xhlu/electra-medal")
-tokenizer = AutoTokenizer.from_pretrained("xhlu/electra-medal")
-```
-
-## Citation
 
 To cite this project, download the `bibtex` [here](https://www.aclweb.org/anthology/2020.clinicalnlp-1.15.bib), or copy the text below:
 ```
@@ -63,6 +32,39 @@ To cite this project, download the `bibtex` [here](https://www.aclweb.org/anthol
     url = "https://www.aclweb.org/anthology/2020.clinicalnlp-1.15",
     pages = "130--135",
 }
+```
+
+## Model Quickstart
+
+### Using Torch Hub
+
+You can directly load LSTM and LSTM-SA with `torch.hub`:
+```python
+import torch
+
+lstm = torch.hub.load("McGill-NLP/medal", "lstm")
+lstm_sa = torch.hub.load("McGill-NLP/medal", "lstm_sa")
+```
+
+If you want to use the Electra model, you need to first install transformers:
+```
+pip install transformers
+```
+Then, you can load it with `torch.hub`:
+```python
+import torch
+electra = torch.hub.load("McGill-NLP/medal", "electra")
+```
+
+### Using Huggingface `transformers`
+
+If you are only interested in the pre-trained ELECTRA weights (without the disambiguation head), you can load it directly from the Hugging Face Repository:
+
+```python
+from transformers import AutoModel, AutoTokenizer
+
+model = AutoModel.from_pretrained("McGill-NLP/electra-medal")
+tokenizer = AutoTokenizer.from_pretrained("McGill-NLP/electra-medal")
 ```
 
 ## Downloading the data
@@ -134,7 +136,7 @@ To reproduce the experiments, make sure to have the correct environment.
 To get started, first clone this repo:
 
 ```
-git clone https://github.com/BruceWen120/medal.git
+git clone https://github.com/McGill-NLP/medal.git
 cd medal
 ```
 
