@@ -6,8 +6,6 @@
 
 ![An example from the MeDAL dataset, showing the abbreviation "DHF" being expanded to "dihydrofolate".](./figures/rs_illustration.svg)
 
-Repository for **Me**dical **D**ataset for **A**bbreviation Disambiguation for Natural **L**anguage Understanding (MeDAL), a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain. It was published at the ClinicalNLP workshop at EMNLP.
-
 💻 [Code](https://github.com/McGill-NLP/medal)\
 🤗 [Dataset (Hugging Face)](https://huggingface.co/datasets/medal)\
 💾 [Dataset (Kaggle)](https://www.kaggle.com/xhlulu/medal-emnlp)\
