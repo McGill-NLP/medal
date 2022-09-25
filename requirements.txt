@@ -8,11 +8,11 @@ future==0.18.2
 gensim==3.8.3
 idna==2.10
 joblib==0.17.0
-lxml==4.6.5
-numpy==1.22.0
+lxml==4.9.1
+numpy==1.19.4
 packaging==20.4
 pandas==1.1.4
-protobuf==3.15.0
+protobuf==3.18.3
 pybind11==2.6.1
 pyparsing==2.4.7
 python-dateutil==2.8.1
