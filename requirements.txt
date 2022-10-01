@@ -7,7 +7,7 @@ filelock==3.0.12
 future==0.18.2
 gensim==3.8.3
 idna==2.10
-joblib==0.17.0
+joblib==1.2.0
 lxml==4.9.1
 numpy==1.22.0
 packaging==20.4
