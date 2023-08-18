@@ -18,7 +18,7 @@ pyparsing==2.4.7
 python-dateutil==2.8.1
 pytz==2020.4
 regex==2020.11.13
-requests==2.25.0
+requests==2.31.0
 sacremoses==0.0.43
 scipy==1.5.4
 sentencepiece==0.1.91
