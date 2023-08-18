@@ -25,7 +25,7 @@ sentencepiece==0.1.91
 six==1.15.0
 smart-open==3.0.0
 tokenizers==0.9.3
-torch==1.7.0
+torch==1.13.1
 tqdm==4.51.0
 transformers==3.5.1
 typing-extensions==3.7.4.3
