@@ -27,6 +27,6 @@ smart-open==3.0.0
 tokenizers==0.9.3
 torch==1.7.0
 tqdm==4.51.0
-transformers==3.5.1
+transformers==4.30.0
 typing-extensions==3.7.4.3
 urllib3==1.26.5
