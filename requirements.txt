@@ -20,7 +20,7 @@ pytz==2020.4
 regex==2020.11.13
 requests==2.25.0
 sacremoses==0.0.43
-scipy==1.5.4
+scipy==1.10.0
 sentencepiece==0.1.91
 six==1.15.0
 smart-open==3.0.0
